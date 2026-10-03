@@ -70,7 +70,6 @@ def LoadScene(YList, CurrentScene, CurrentGlobalLevel, PlayerSpawnPos):
         for i in range(0, LenLevel):
             YList[a].append(BlockColorAppendix.index(f.getpixel((i + OffsetX + SecondOffsetX,a))))
         YList[a].append(1)
-    print("SIIIII")
 
     return(YList, BgColor)
 

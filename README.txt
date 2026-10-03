@@ -1,3 +1,25 @@
+
+====================================================================================
+
+This is a project I made for the 2023 AE python competition. This project was made before I knew
+how to use classes well in python, so the software architecture was a real challenge to figure out.
+I also ran into issues with pygame, as its way of rendering sprites would often slow down the game if
+the entire screen had to be rendered. I tried optimizing this as much as I could by minimizing the number
+of sprite re-renders each frame, but the game still slows down sometimes (similar to old NES games).
+
+The game certainly has its flaws from both a programming and game design standpoint, and the difficulty needs
+some fine tuning, so play at your own risk...
+
+All the art showcased in this game was made by me. The music was taken from various sources which are linked
+at the bottom of this readme.
+
+No AI was used in the making of this project, as I wanted to learn as much as I could about software engineering
+and its challenges the old fashioned way
+
+Enjoy!
+
+====================================================================================
+
 Welcome to PiSouls. Your goal is light the first olympic flame at the top of the castle!
 
 If the menu takes too long in the loading screen, reset the game
@@ -21,8 +43,6 @@ COLLECT THE DIAMONDS: They are extremely important and worth a lot of points!!! 
 GOOD LUCK!!
 
 (Run Main.py to Start!)
-
-all sprites are drawn by me :D Music however is taken from other games. Credit below:
 
 Music and SFX:
 DEATHEFFECT: dark souls death sound
